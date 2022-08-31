@@ -1,0 +1,25 @@
+{
+  "name": "basic-http-class-example",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.14.0",
+    "npm": "8.3.1"
+  },
+  "description": "a basic node server",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "test": "echo \"Tests completed\"",
+    "pretest": "eslint ./src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpd8987/basic-http-class-example.git"
+  },
+  "author": "Louie D'Angelo",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/lpd8987/basic-http-class-example/issues"
+  },
+  "homepage": "https://github.com/lpd8987/basic-http-class-example#readme"
+}
